@@ -1,0 +1,22 @@
+name: iranian_errors
+description: A Flutter package to manage common Flutter errors in Iran.
+version: 0.0.1
+homepage: https://github.com/ihsuncloud/my_flutter_errors
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.my_flutter_errors
+      ios:
+        pluginClass: IranianFlutterErrorsPlugin
