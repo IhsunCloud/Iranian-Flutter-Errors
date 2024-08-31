@@ -1,7 +1,5 @@
 library iranian_errors;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/error_handler.dart';
+export 'src/network_checker.dart';
+export 'src/proxy_manager.dart';
